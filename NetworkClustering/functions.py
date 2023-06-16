@@ -94,7 +94,7 @@ def print_progress(current_time, start_time, n_clusters, n_subclusters, n_networ
   run_time_m = int(run_time // 60)
 
   # Calculating the seconds part of the run_time
-  run_time_s = int(run_time - run_time_m)
+  run_time_s = int(run_time - run_time_m*60)
 
   # Calculating remaining time
   rem_time = run_time*n_subclusters / (n_network - n_subclusters)
@@ -103,7 +103,7 @@ def print_progress(current_time, start_time, n_clusters, n_subclusters, n_networ
   rem_time_m = int(rem_time // 60)
 
   # Calculating the seconds part of the rem_time
-  rem_time_s = int(rem_time - rem_time_m)
+  rem_time_s = int(rem_time - rem_time_m*60)
 
   # Creating response string
   response = "Run time: {} min {} s | Remaining time: {} min {} s | Clusters found: {} | Remaining sub-clusters: {} | Total sub-clusters: {}"
