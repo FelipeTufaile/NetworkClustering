@@ -11,7 +11,6 @@ setup(
     install_requires=[
         # List your dependencies here
         'times==0.7',
-        'os-sys==2.1.4',
     ],
     classifiers=[
         'Intended Audience :: Public in general',
