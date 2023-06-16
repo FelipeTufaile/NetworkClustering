@@ -1,20 +1,20 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='smoalib',
+    name='NetworkClustering',
     version='0.1.0',
-    description='Utility function for data practioners',
+    description='Utility function for clustering a network of sub-clusters that have common elements between each other',
     author='Felipe Tufaile',
-    author_email='TufaileFelipeM@JohnDeere.com',
-    url='https://githubcloud.deere.com/JDFSalesMarketingOperationalAnalytics/smoafun',
+    author_email='f.tufaile@Jgmail.com',
+    url='https://github.com/FelipeTufaile/NetworkClustering',
     packages=find_packages(),
     install_requires=[
         # List your dependencies here
-        'DateTime==5.1',
-        'python-dateutil==2.8.2',
+        'times==0.7',
+        'os-sys==2.1.4',
     ],
     classifiers=[
-        'Intended Audience :: SMOA Data Practioners',
+        'Intended Audience :: Public in general',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.9',
     ],
